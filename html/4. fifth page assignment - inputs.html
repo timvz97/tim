@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs demo</title>
+</head>
+<body>
+
+<!-- <p>Do you preffer cats or dogs?</p>
+
+<form>
+	<label for="dogs">Dogs:</label>
+	<input id="dogs" type="Radio" name="Petchoice" value="dog">
+
+	<label for="cats">Cats:</label>
+	<input id="cats" type="Radio" name="Petchoice" value="CATS">
+
+
+	<p>What is your favorite color?</p>
+	<select name="color">
+		<option value="Rood">Red</option>
+		<option value="Oranje">Orange</option>
+		<option value="Groen">Green</option>
+	</select>
+
+	<textarea name="Paragraph" rows="10" cols="10"></textarea>
+
+	<button>Go!</button>
+</form> -->
+
+
+
+<h1>Register</h1>
+	<form>
+	<div>
+		<label>Firstname:</label>
+		<input id="First Name" placeholder="Firstname" type="text" name="Firstname" required="true">
+		<label>Last Name:</label>
+		<input placeholder="Last Name" type="text" name="Last Name" required="true">
+	</div>
+
+	<div>	
+		<label for="Male">Male:</label>
+		<input value="Male" type="radio" name="Gender" name="Male">
+		
+		<label for="Female">Female:</label>
+		<input value="Female" type="radio" name="Gender" name="Female">
+
+		<label for="Other">Other:</label>
+		<input value="Other" type="radio" name="Gender" name="Other">
+	</div>
+
+	<p>
+		<label for="email">Email:</label>
+		<input placeholder="email" type="email" name="email" required="true">
+
+		<label for="password">Password:</label>
+		<input type="password" name="password" placeholder="password" minlength="5" maxlength="12" required="true" required title="wachtwoord moet minstens 5 zijn">
+	</p>
+
+	<p>
+		<label for="Birthday">Birthday:</label>
+		<select name="Month">
+			<option value="Month">month</option>
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+			<option>Apr</option>
+			<option>May</option>
+		</select>
+
+		<select name="Day">
+			<option value="Day">Day</option>
+		</select>
+
+		<select name="Year">
+			<option value="Year">Year</option>
+		</select>
+	</p>
+
+	<p>
+		<label for="agree">I agree to the terms and conditions</label>
+		<input type="checkbox" name="test" required="true">
+	</p>
+
+	<p>
+		<input type="submit">
+	</p>
+	</form>
+
+
+</body>
+</html>
